@@ -22,5 +22,5 @@ var grammar = {
 var parser = new Parser(grammar);
 var parserSource = parser.generate();
  
-var source = "diogovalentearaga@outlook.com.br";
+var source = "diogo@outlook.com.br";
 console.log(parser.parse(source));
